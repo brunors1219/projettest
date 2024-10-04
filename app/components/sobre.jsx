@@ -5,7 +5,7 @@ import Image2 from "../img/image2.jpg"
 function Sobre (){
     return(
         <div className="grid grid-cols-2 bg-cinzabg pt-7">
-            <Image className="w-[650px] h-[680px] opacity-90" src={Image2} alt='Detetive'/>
+            <Image className="w-[650px] h-[550px] opacity-90" src={Image2} alt='Detetive'/>
             <div className="w-[600px] ">
                 <h1 className="text-3xl font-bold pb-5">Conhecendo</h1>
                 <h2 className="text-2xl font-bold py-5">Quem sou eu?</h2>

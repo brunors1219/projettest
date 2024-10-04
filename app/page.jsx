@@ -1,4 +1,5 @@
 
+import Cards from "./components/cardserv";
 import Header from "./components/header";
 import Metodo from "./components/metodo";
 import Sobre from "./components/sobre";
@@ -13,6 +14,7 @@ export default function Home() {
         <Welcome />
         <Sobre />
         <Metodo/>
+        <Cards/>
         <Whatsapp/>
       </div>
 
