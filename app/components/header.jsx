@@ -13,7 +13,6 @@ function Header() {
                 <Link href='/' className="hover:text-white transition duration-300 delay-150">Serviços</Link>
                 <Link href='/' className="hover:text-white transition duration-300 delay-150">Contato</Link>
             </nav>
-
         </div>
     );
 

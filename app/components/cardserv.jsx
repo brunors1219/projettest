@@ -11,7 +11,7 @@ function Cards() {
 
             <div className="flex items-center justify-center py-24 space-x-4">
 
-                <div className="grid w-[300px] h-[380px] bg-gray-500  justify-items-center rounded-xl shadow-2xl">
+                <div className="grid w-[300px] h-[380px] bg-gray-300  justify-items-center rounded-xl shadow-2xl">
                     <Image src={icon1} alt='Balaça da justica'/>
                     <h1 className="text-xl font-bold">Coleta de Provas Judiciais</h1>
                     <p className="text-center text-lg justify-center items-center w-52">Oferecemos suporte completo na obtenção de provas para uso em processos legais,
@@ -19,7 +19,7 @@ function Cards() {
                 </div>
 
 
-                <div className="grid w-[300px] h-[380px] bg-gray-500  justify-items-center rounded-xl shadow-2xl">
+                <div className="grid w-[300px] h-[380px] bg-gray-300  justify-items-center rounded-xl shadow-2xl">
                     <Image src={icon1} alt='Balaça da justica'/>
                     <h1 className="text-xl font-bold">Coleta de Provas Judiciais</h1>
                     <p className="text-center text-lg justify-center items-center w-52">Oferecemos suporte completo na obtenção de provas para uso em processos legais,
@@ -27,7 +27,7 @@ function Cards() {
                 </div>
 
 
-                <div className="grid w-[300px] h-[380px] bg-gray-500  justify-items-center rounded-xl shadow-2xl">
+                <div className="grid w-[300px] h-[380px] bg-gray-300  justify-items-center rounded-xl shadow-2xl">
                     <Image src={icon1} alt='Balaça da justica'/>
                     <h1 className="text-xl font-bold">Coleta de Provas Judiciais</h1>
                     <p className="text-center text-lg justify-center items-center w-52">Oferecemos suporte completo na obtenção de provas para uso em processos legais,
@@ -36,7 +36,7 @@ function Cards() {
 
 
 
-                <div className="grid w-[300px] h-[380px] bg-gray-500  justify-items-center rounded-xl shadow-2xl">
+                <div className="grid w-[300px] h-[380px] bg-gray-300  justify-items-center rounded-xl shadow-2xl">
                     <Image src={icon1} alt='Balaça da justica'/>
                     <h1 className="text-xl font-bold">Coleta de Provas Judiciais</h1>
                     <p className="text-center text-lg justify-center items-center w-52">Oferecemos suporte completo na obtenção de provas para uso em processos legais,

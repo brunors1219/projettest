@@ -1,5 +1,8 @@
 
 import Cards from "./components/cardserv";
+import Cliente from "./components/clientes";
+import Contact from "./components/contact";
+import Footer from "./components/footer";
 import Header from "./components/header";
 import Metodo from "./components/metodo";
 import Sobre from "./components/sobre";
@@ -15,6 +18,9 @@ export default function Home() {
         <Sobre />
         <Metodo/>
         <Cards/>
+        <Cliente/>
+        <Contact/>
+        <Footer/>
         <Whatsapp/>
       </div>
 
