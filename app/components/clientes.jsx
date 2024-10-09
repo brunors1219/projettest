@@ -8,7 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 function TestimonialsCard({ description, person }) {
     return (
         <div className="p-7">
-            <div className="grid p-4 w-full md:w-[350px] h-[480px] justify-items-center bg-gray-300 rounded-lg mx-auto shadow-lg shadow-black">
+            <div className="grid p-4 w-full md:w-[300px] h-[480px] justify-items-center bg-gray-300 rounded-lg mx-auto shadow-lg shadow-black">
                 <span className="text-4xl text-black font-poppins font-bold ">&quot;</span>
                 <p className="text-lg justify-center text-left ">{description}</p>
                 <h1 className="text-3xl font-bold">- {person}</h1>
