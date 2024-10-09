@@ -1,7 +1,7 @@
 function Metodo (){
     return(
         <div className="px-12 py-24 bg-cinzabg">
-            <h1 h1 className="text-3xl font-bold text-center pb-5">Método Utilizado</h1>
+            <h1 className="text-3xl font-bold text-center pb-5">Método Utilizado</h1>
             <p className="text-2xl text-center">Na Agência de Detetive, seguimos um processo rigoroso e confidencial para garantir a eficiência e a discrição em cada caso:</p>
             <h2 className="text-2xl font-bold py-5">Consulta Inicial</h2>
             <p className="text-xl">Tudo começa com uma consulta confidencial, onde coletamos informações detalhadas sobre o caso. Nesta etapa, compreendemos a situação do cliente e definimos os objetivos da investigação.</p>

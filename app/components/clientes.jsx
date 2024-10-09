@@ -7,10 +7,12 @@ import "slick-carousel/slick/slick-theme.css";
 
 function TestimonialsCard({ description, person }) {
     return (
-        <div className="bg-white m-4 p-6 min-h-[450px] w-[90%] max-w-[420px] mx-auto shadow-xl shadow-black">
-            <span className="text-4xl text-renata-yellow font-poppins font-bold">&quot;</span>
-            <p>{description}</p>
-            <h4 className="text-xl text-renata-yellow font-poppins font-semibold py-4 uppercase">- {person}</h4>
+        <div className="p-7">
+            <div className="grid p-4 w-full md:w-[350px] h-[480px] justify-items-center bg-gray-300 rounded-lg mx-auto shadow-lg shadow-black">
+                <span className="text-4xl text-black font-poppins font-bold ">&quot;</span>
+                <p className="text-lg justify-center text-left ">{description}</p>
+                <h1 className="text-3xl font-bold">- {person}</h1>
+            </div>
         </div>
     )
 }
@@ -36,32 +38,34 @@ function Cliente (){
 
     
     return(
-        <div className=" py-7 px-5 ">
-            <h1 className="text-3xl font-bold">Depoimentos de Clientes</h1>
-            <div className="flex items-center justify-center py-24 space-x-4">
-
-                <div  className="grid p-4 w-[350px] h-[380px] justify-items-center bg-gray-300 rounded-lg">
-                    <h1 className="text-3xl font-bold">João Silva</h1>
-                    <p className="text-lg justify-center text-left ">"Eu estava em uma situação muito difícil e sem saber o que fazer. Graças ao profissionalismo e discrição do [Detetive], consegui as respostas que tanto precisava. A investigação foi rápida e extremamente eficiente. Recomendo sem hesitação!"</p>
-                </div>
-
-                <div  className="grid p-4 w-[350px] h-[380px] justify-items-center bg-gray-300 rounded-lg">
-                    <h1 className="text-3xl font-bold">João Silva</h1>
-                    <p className="text-lg justify-center text-left ">"Eu estava em uma situação muito difícil e sem saber o que fazer. Graças ao profissionalismo e discrição do [Detetive], consegui as respostas que tanto precisava. A investigação foi rápida e extremamente eficiente. Recomendo sem hesitação!"</p>
-                </div>
-
-                <div  className="grid p-4 w-[350px] h-[380px] justify-items-center bg-gray-300 rounded-lg">
-                    <h1 className="text-3xl font-bold">João Silva</h1>
-                    <p className="text-lg justify-center text-left ">"Eu estava em uma situação muito difícil e sem saber o que fazer. Graças ao profissionalismo e discrição do [Detetive], consegui as respostas que tanto precisava. A investigação foi rápida e extremamente eficiente. Recomendo sem hesitação!"</p>
-                </div>
-
-                <div  className="grid p-4 w-[350px] h-[380px] justify-items-center bg-gray-300 rounded-lg">
-                    <h1 className="text-3xl font-bold">João Silva</h1>
-                    <p className="text-lg justify-center text-left ">"Eu estava em uma situação muito difícil e sem saber o que fazer. Graças ao profissionalismo e discrição do [Detetive], consegui as respostas que tanto precisava. A investigação foi rápida e extremamente eficiente. Recomendo sem hesitação!"</p>
-                </div>
-
-                
-            </div>
+        
+        <div className="">
+            <Slider {...settings}>
+                                <div>
+                                    <TestimonialsCard
+                                        description="Estava enfrentando suspeitas em meu relacionamento e decidi procurar a ajuda de Renata. Sua discrição e profissionalismo foram além das minhas expectativas. Ela me forneceu respostas claras e me ajudou a tomar decisões importantes para o meu futuro. Estou imensamente grata por sua assistência."
+                                        person="Sofia Silva"
+                                    />
+                                </div>
+                                <div>
+                                    <TestimonialsCard
+                                        description="Renata foi incrível ao lidar com minha situação delicada. Sua abordagem compassiva e profissional me fez sentir apoiada em cada passo do caminho. Graças a ela, descobri a verdade e pude seguir em frente com minha vida."
+                                        person="Maria Oliveira"
+                                    />
+                                </div>
+                                <div>
+                                    <TestimonialsCard
+                                        description="Renata foi incrível ao lidar com minha situação delicada. Sua abordagem compassiva e profissional me fez sentir apoiada em cada passo do caminho. Graças a ela, descobri a verdade e pude seguir em frente com minha vida."
+                                        person="Maria Oliveira"
+                                    />
+                                </div>
+                                <div>
+                                    <TestimonialsCard
+                                        description="Renata foi incrível ao lidar com minha situação delicada. Sua abordagem compassiva e profissional me fez sentir apoiada em cada passo do caminho. Graças a ela, descobri a verdade e pude seguir em frente com minha vida."
+                                        person="Maria Oliveira"
+                                    />
+                                </div>
+            </Slider>
         </div>
     );
 }

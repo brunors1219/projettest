@@ -5,7 +5,7 @@ import React from "react";
 function Footer(){
     return(
         <div>
-            <div className="grid grid-cols-3 space-x-3 p-7 bg-cinzabg border-collapse">
+            <div className="grid grid-cols-1 md:grid-cols-3 space-y-3 md:space-x-3 p-7 bg-cinzabg border-collapse">
                 <Image src={Logo} alt="Logo"/>
             
                 <div className=" grid ">

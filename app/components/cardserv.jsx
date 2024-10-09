@@ -9,7 +9,7 @@ function Cards() {
             <p className="text-2xl text-center">Oferecemos uma ampla gama de serviços de investigação, todos conduzidos com discrição e profissionalismo para atender às suas necessidades. Veja abaixo os principais serviços que oferecemos:</p>
 
 
-            <div className="flex items-center justify-center py-24 space-x-4">
+            <div className="flex  flex-col md:flex-row items-center py-24 space-y-4 md:space-x-5">
 
                 <div className="grid w-[300px] h-[380px] bg-gray-300  justify-items-center rounded-xl shadow-2xl">
                     <Image src={icon1} alt='Balaça da justica'/>

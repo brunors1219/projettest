@@ -1,6 +1,6 @@
 const Contact=()=>{
     return( 
-        <div className="grid justify-items-center grid-cols-2 p-7 bg-cinzabg">
+        <div className="grid justify-items-center grid-cols-1 md:grid-cols-1 p-7 ">
             <div>
                 <h1 className="font-bold text-3xl py-5">Entre em <span className="text-green-600">Contato</span></h1>
                 <p className="text-2xl">Tem dúvidas ou precisa de assistência? Preencha o formulário ou entre em contato pelos canais fornecidos.</p>
