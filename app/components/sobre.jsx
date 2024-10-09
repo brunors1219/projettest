@@ -4,7 +4,7 @@ import Image2 from "../img/image2.jpg"
 
 function Sobre (){
     return(
-        <div className="grid grid-cols-1  xl:grid-cols-2 bg-cinzabg pt-7 gap-5 px-4">
+        <div id='sobre' className="grid grid-cols-1  xl:grid-cols-2 bg-cinzabg pt-7 gap-5 px-4">
             <div className="w-full md:w-[580px] h-[300px] md:h-[630px] rounded-lg shadow-xl shadow-black overflow-hidden mt-5 md:mt-0">
                 <Image src={Image2} alt='Imgem de um detetive' className="object-cover w-full h-full " />
             </div>

@@ -3,7 +3,7 @@ import Detetive from "../img/image1.jpg";
 
 function Welcome() {
     return (
-        <div className="bg-cinzabg flex flex-col md:flex-row items-center px-4 py-10 md:px-7 py20  ">
+        <div id='home' className="bg-cinzabg flex flex-col md:flex-row items-center px-4 py-10 md:px-7 py20  ">
             <div className="py-7 px-7 md:px-7 w-full md:w-[850px] space-y-5 md:space-y-10">
                 <h1 className="text-4xl md:text-7x1 font-bold ">Descubra a <span className="text-green-700">Verdade. </span>
                     Investigação Privada <span className="text-green-700">Discreta e Profissional.</span></h1>

@@ -76,26 +76,26 @@ function Cliente() {
             <Slider {...settings}>
                 <div>
                     <TestimonialsCard
-                        description="Estava enfrentando suspeitas em meu relacionamento e decidi procurar a ajuda de Renata. Sua discrição e profissionalismo foram além das minhas expectativas. Ela me forneceu respostas claras e me ajudou a tomar decisões importantes para o meu futuro. Estou imensamente grata por sua assistência."
-                        person="Sofia Silva"
+                        description="Contratei os serviços do detetive Bruno para investigar um caso de infidelidade. Ele foi extremamente profissional e discreto. As informações que ele me trouxe foram cruciais para entender a situação. Recomendo!"
+                        person="João S."
                     />
                 </div>
                 <div>
                     <TestimonialsCard
-                        description="Renata foi incrível ao lidar com minha situação delicada. Sua abordagem compassiva e profissional me fez sentir apoiada em cada passo do caminho. Graças a ela, descobri a verdade e pude seguir em frente com minha vida."
-                        person="Maria Oliveira"
+                        description="O serviço foi excepcional! O detetive foi muito atencioso e se preocupou com todos os detalhes. Agradeço pela ajuda na localização de um parente desaparecido. O resultado foi surpreendente"
+                        person="Maria F."
                     />
                 </div>
                 <div>
                     <TestimonialsCard
-                        description="Renata foi incrível ao lidar com minha situação delicada. Sua abordagem compassiva e profissional me fez sentir apoiada em cada passo do caminho. Graças a ela, descobri a verdade e pude seguir em frente com minha vida."
-                        person="Maria Oliveira"
+                        description="Fiquei impressionado com a rapidez e eficiência do trabalho do Bruno. Ele me ajudou a resolver um problema de fraude que estava me preocupando. A comunicação foi clara e constante."
+                        person="Ricardo T."
                     />
                 </div>
                 <div>
                     <TestimonialsCard
-                        description="Renata foi incrível ao lidar com minha situação delicada. Sua abordagem compassiva e profissional me fez sentir apoiada em cada passo do caminho. Graças a ela, descobri a verdade e pude seguir em frente com minha vida."
-                        person="Maria Oliveira"
+                        description="O trabalho foi feito com muito profissionalismo e ética. Me senti seguro durante todo o processo. Agradeço pela dedicação e pelos resultados positivos."
+                        person="Ana P."
                     />
                 </div>
             </Slider>

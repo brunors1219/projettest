@@ -10,9 +10,9 @@ function Footer(){
             
                 <div className=" grid ">
                     <h3 className="text-xl font-bold">Menu</h3>
-                    <a className="text-lg hover:text-white transition duration-300 delay-150" href="">Home</a>
-                    <a className="text-lg hover:text-white transition duration-300 delay-150" href="">Sobre</a>
-                    <a className="text-lg hover:text-white transition duration-300 delay-150" href="">Contato</a>
+                    <a className="text-lg hover:text-white transition duration-300 delay-150" href="#home">Home</a>
+                    <a className="text-lg hover:text-white transition duration-300 delay-150" href="#sobre">Sobre</a>
+                    <a className="text-lg hover:text-white transition duration-300 delay-150" href="#servico">Serviços</a>
                 </div>
                 <div className="grid">
                     <h3 className="text-xl font-bold">Contato</h3>

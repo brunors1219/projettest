@@ -27,10 +27,10 @@ function Header() {
 
       {/* Menu de navegação */}
       <nav className={`flex-col md:flex-row space-x-4 justify-end items-center font-serif text-xl px-5 ${isOpen ? 'block' : 'hidden'} md:flex`}>
-        <Link href='/' className="hover:text-white transition duration-300 delay-150">Home</Link>
-        <Link href='/' className="hover:text-white transition duration-300 delay-150">Sobre</Link>
-        <Link href='/' className="hover:text-white transition duration-300 delay-150">Serviços</Link>
-        <Link href='/' className="hover:text-white transition duration-300 delay-150">Contato</Link>
+        <Link href='#home' className="hover:text-white transition duration-300 delay-150">Home</Link>
+        <Link href='#sobre' className="hover:text-white transition duration-300 delay-150">Sobre</Link>
+        <Link href='#servico' className="hover:text-white transition duration-300 delay-150">Serviços</Link>
+        <Link href='#contato' className="hover:text-white transition duration-300 delay-150">Contato</Link>
       </nav>
     </div>
     );
