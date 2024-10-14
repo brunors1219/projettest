@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Detetive from "../img/image1.jpg";
 
+const buttonContact =()=>{
+    <a href=""></a>
+}
 function Welcome() {
     return (
         <div id='home' className="bg-cinzabg flex flex-col md:flex-row items-center px-4 py-10 md:px-7 py20  ">

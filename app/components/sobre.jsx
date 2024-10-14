@@ -9,7 +9,7 @@ function Sobre (){
                 <Image src={Image2} alt='Imgem de um detetive' className="object-cover w-full h-full " />
             </div>
             <div className="w-full md:w-[600px] space-x-5">
-                <h1 className="text-2x1 md:text-3xl font-bold pb-3">Conhecendo</h1>
+                <h1 className="text-2xl md:text-3xl font-bold px-4">Conhecendo</h1>
                 <h2 className="tex-xl md:text-2xl font-bold py-3">Quem sou eu?</h2>
                 <p className="text-lg md:text-xl">Olá, sou [Nome do Detetive], um detetive particular especializado em fornecer soluções confiáveis para quem busca a verdade. Cada investigação que conduzo é tratada com total sigilo e atenção aos detalhes, para garantir que você receba as respostas de que precisa.</p>
                 <h2 className="text-xl md:text-2xl font-bold py-3">Por que me Contratar?</h2>

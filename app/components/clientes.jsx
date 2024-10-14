@@ -7,30 +7,37 @@ import "slick-carousel/slick/slick-theme.css";
 
 // Setas personalizadas
 // Setas personalizadas
-function NextArrow(props) {
+const CustomPrevArrow = (props) => {
     const { className, style, onClick } = props;
     return (
-        <div
-            className={`${className} slick-next`}
-            style={{ ...style, display: "block", right: "10px", zIndex: 1 }}
-            onClick={onClick}
-        >
-        </div>
+      <div
+        className={className}
+        style={{
+          ...style,
+          display: "block",
+          background: "gray", // Defina a cor ou estilo que quiser
+          borderRadius: "50%", // Exemplo de borda arredondada
+        }}
+        onClick={onClick}
+      />
     );
-}
-
-function PrevArrow(props) {
+  };
+  
+  const CustomNextArrow = (props) => {
     const { className, style, onClick } = props;
     return (
-        <div
-            className={`${className} slick-prev`}
-            style={{ ...style, display: "block", left: "10px", zIndex: 1 }}
-            onClick={onClick}
-        >
-            
-        </div>
+      <div
+        className={className}
+        style={{
+          ...style,
+          display: "block",
+          background: "gray", // Defina a cor ou estilo que quiser
+          borderRadius: "50%", // Exemplo de borda arredondada
+        }}
+        onClick={onClick}
+      />
     );
-}
+  };
 
 function TestimonialsCard({ description, person }) {
     return (
@@ -48,11 +55,14 @@ function Cliente() {
     const settings = {
         dots: true,
         infinite: true,
-        speed: 2000,
+        speed: 3000,
         slidesToShow: 3,
         slidesToScroll: 3,
-        nextArrow: <NextArrow />, // Adicionando seta para avançar
-        prevArrow: <PrevArrow />, // Adicionando seta para voltar
+        autoplay: true,          // Ativa o autoplay
+        autoplaySpeed: 2500,     // Intervalo de 2 segundos entre as transições
+        pauseOnHover: true,      // Pausa o autoplay quando o mouse passa por cima
+        nextArrow: <CustomNextArrow />, // Seta customizada para "next"
+        prevArrow: <CustomPrevArrow />,  // Seta customizada para "prev"
         responsive: [
             {
                 breakpoint: 1024, // Tablets e telas menores
